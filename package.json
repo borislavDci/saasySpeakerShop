@@ -1,20 +1,17 @@
 {
-  "name": "boilerplate",
+  "name": "sassy-speakershop",
   "version": "1.0.0",
-  "description": "This is a boilerplate",
+  "description": "This is a speaker shop website",
   "scripts": {
     "start": "rmdir /s dev-serve && parcel src/index.html --dist-dir dev-serve",
     "build": "rmdir /s build && parcel build src/index.html --dist-dir build --public-url ./",
     "publish": "gh-pages -d build"
   },
-  "author": "dci",
+  "author": "Borislav Atanasov",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.7.0",
     "gh-pages": "^4.0.0",
     "parcel": "^2.7.0"
-  },
-  "dependencies": {
-    "bootstrap": "^5.2.0"
   }
 }
